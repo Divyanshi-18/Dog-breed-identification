@@ -10,11 +10,14 @@ https://www.kaggle.com/competitions/dog-breed-identification/data
 
 3.Preprocessing Images(turning images into Tensors)
 To preprocess our images into Tensors we're going to write a function which does a few things:
-
 a.Take an image filepath as input
+
 b.Use TensorFlow to read the file and save it to a variable, image
+
 c.Turn our image (a jpg) into Tensors
+
 d.Resize the image to be a shape of (224,224)
+
 e.Return the modified image
 
 4. Evaluation
